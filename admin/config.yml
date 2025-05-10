@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: orihachi/my-blog  # ← GitHub repository
-  branch: main
+  branch: gh-pages
 
 auth:
   client_id: Ov23liV2hevPUPHNEuMm
