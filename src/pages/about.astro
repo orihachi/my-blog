@@ -1,12 +1,15 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
+
+// public に画像がある場合はこれでOK！
+const heroImage = '/blog-placeholder-about.jpg';
 ---
 
 <Layout
 	title="About Me"
 	description="Lorem ipsum dolor sit amet"
 	pubDate={new Date('August 08 2021')}
-	heroImage="/blog-placeholder-about.jpg"
+	heroImage={heroImage}
 >
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut

@@ -5,6 +5,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	// 🔽 GitHub Pages に合わせて修正
+	site: 'https://orihachi.github.io/my-blog/',
+
 	integrations: [mdx(), sitemap()],
 });
