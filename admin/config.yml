@@ -4,7 +4,7 @@ backend:
   branch: main
   auth_scope: repo
   base_url: https://github.com
-  auth_endpoint: https://github.com/login/oauth/authorize
+  auth_endpoint: /login/oauth/authorize
   site_domain: orihachi.github.io
   client_id: Ov23liV2hevPUPHNEuMm
 
