@@ -5,10 +5,12 @@
     <title>Content Manager</title>
   </head>
   <body>
-    <!-- 🔽 ここが必須 -->
     <div id="nc-root"></div>
-
     <!-- Decap CMS のスクリプト -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+      window.CMS_MANUAL_INIT = true;
+      CMS.init();
+    </script>
   </body>
 </html>
