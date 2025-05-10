@@ -1,23 +1,20 @@
 backend:
-  name: github
-  repo: orihachi/my-blog
-  branch: main
-  base_url: https://decapcms-oauth.vercel.app
-  auth_endpoint: start
-  site_domain: orihachi.github.io
-  client_id: Ov23liV2hevPUPHNEuMm
+  name: git-gateway
+  branch: main  # ← あなたのデプロイ対象のブランチ（通常は main）
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 
+site_url: https://komu-nichijo.netlify.app
+display_url: https://komu-nichijo.netlify.app
+
 collections:
-  - name: "blog"
-    label: "ブログ記事"
+  - name: "posts"
+    label: "Posts"
     folder: "src/content/blog"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "タイトル", name: "title", widget: "string" }
-      - { label: "日付", name: "pubDate", widget: "datetime" }
-      - { label: "説明", name: "description", widget: "string" }
-      - { label: "本文", name: "body", widget: "markdown" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
