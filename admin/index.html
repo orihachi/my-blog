@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>Content Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
+    <!-- 🔽 CMS用のルート要素 -->
     <div id="nc-root"></div>
-    <!-- Decap CMS のスクリプト -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
+    <!-- Decap CMS のスクリプト（最新版を手動で初期化）-->
     <script>
       window.CMS_MANUAL_INIT = true;
+    </script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
       CMS.init();
     </script>
   </body>
