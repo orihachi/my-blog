@@ -1,12 +1,16 @@
 backend:
-  name: git-gateway
-  branch: main  # ← あなたのデプロイ対象のブランチ（通常は main）
+  name: github
+  repo: orihachi/my-blog  # ← GitHubリポジトリ名に合わせて！
+  branch: main
+
+auth:
+  client_id: Ov23liV2hevPUPHNEuMm
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
 
-site_url: https://komu-nichijo.netlify.app
-display_url: https://komu-nichijo.netlify.app
+site_url: https://orihachi.github.io/my-blog
+display_url: https://orihachi.github.io/my-blog
 
 collections:
   - name: "posts"
