@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: orihachi/my-blog  # ← GitHubリポジトリ名に合わせて！
+  repo: orihachi/my-blog  # ← GitHub repository
   branch: main
 
 auth:
