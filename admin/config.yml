@@ -2,11 +2,11 @@ backend:
   name: github
   repo: orihachi/my-blog
   branch: main
-  auth_scope: repo
-  base_url: https://orihachi.github.io/my-blog/
-  auth_endpoint: oauth
+  base_url: https://auth-github.decapcms.org
+  auth_endpoint: start
   site_domain: orihachi.github.io
   client_id: Ov23liV2hevPUPHNEuMm
+
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
